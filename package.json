@@ -1,0 +1,21 @@
+{
+  "name": "Global",
+  "version": "1.0.0",
+  "description": "Aplicacion FULL STACK",
+  "main": "app.js",
+  "author": "David ",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "5.5",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
